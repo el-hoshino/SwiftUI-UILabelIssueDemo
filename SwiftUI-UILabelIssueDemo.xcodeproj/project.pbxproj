@@ -13,6 +13,7 @@
 		BF4F4DEE26CE42C9008AC06A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4F4DED26CE42C9008AC06A /* Preview Assets.xcassets */; };
 		BF4F4DF926CE42CA008AC06A /* SwiftUI_UILabelIssueDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F4DF826CE42CA008AC06A /* SwiftUI_UILabelIssueDemoTests.swift */; };
 		BF4F4E0426CE42CA008AC06A /* SwiftUI_UILabelIssueDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F4E0326CE42CA008AC06A /* SwiftUI_UILabelIssueDemoUITests.swift */; };
+		BF4F4E1226CE431F008AC06A /* UILabelAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F4E1126CE431F008AC06A /* UILabelAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BF4F4DFF26CE42CA008AC06A /* SwiftUI-UILabelIssueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UILabelIssueDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F4E0326CE42CA008AC06A /* SwiftUI_UILabelIssueDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UILabelIssueDemoUITests.swift; sourceTree = "<group>"; };
 		BF4F4E0526CE42CA008AC06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4F4E1126CE431F008AC06A /* UILabelAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BF4F4DE626CE42C5008AC06A /* SwiftUI_UILabelIssueDemoApp.swift */,
 				BF4F4DE826CE42C5008AC06A /* ContentView.swift */,
+				BF4F4E1126CE431F008AC06A /* UILabelAdaptor.swift */,
 				BF4F4DEA26CE42C9008AC06A /* Assets.xcassets */,
 				BF4F4DEF26CE42C9008AC06A /* Info.plist */,
 				BF4F4DEC26CE42C9008AC06A /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				BF4F4DE926CE42C5008AC06A /* ContentView.swift in Sources */,
 				BF4F4DE726CE42C5008AC06A /* SwiftUI_UILabelIssueDemoApp.swift in Sources */,
+				BF4F4E1226CE431F008AC06A /* UILabelAdaptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
